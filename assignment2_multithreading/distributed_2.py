@@ -96,7 +96,7 @@ def verify_dataset(num_threads, entries_per_thread):
 # Main execution
 if __name__ == "__main__":
 
-    load_unique_fields("coursegrades.txt")
+    load_unique_fields("C:\Users\Sara\OneDrive\Desktop\Distributed-Grades-Analysis\Distributed-Grades-Analysis\dataset\coursegrades.txt")
 
     courses = list(courses)
     universities = list(universities)

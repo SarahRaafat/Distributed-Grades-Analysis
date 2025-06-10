@@ -123,7 +123,7 @@ for year, top_grades in reduced_data.items():
 # Save results to files
 
 # Saving Course Averages
-with open("average_course_grades.txt", "w") as f:
+with open("C:\Users\Sara\OneDrive\Desktop\Distributed-Grades-Analysis\Distributed-Grades-Analysis\dataset\coursegrades.txt", "w") as f:
     for course, avg in reduce_courses(mapped_data).items():
         f.write(f"{course}, {avg:.2f}\n")
 
